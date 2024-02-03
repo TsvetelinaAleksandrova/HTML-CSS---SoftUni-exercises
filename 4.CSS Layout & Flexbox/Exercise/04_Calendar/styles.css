@@ -26,7 +26,6 @@ section span:nth-child(7) {
 
 span {
     border: 1px solid black;
-    display: block;
     flex-grow: 1;
     padding: 1em 0.5em 4em 0.5em;
     text-align: center;
