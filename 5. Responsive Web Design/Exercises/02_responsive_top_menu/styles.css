@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 30em;
+    padding: 0.5em;
+}
+
+header, 
+nav,
+div, 
+footer {
+    background-color: lightskyblue;
+    border-radius: 0.5em;
+}
+
+header {
+    display: flex;
+    gap: 1.5em;
+    max-width: 100%;
+    padding: 2em;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    gap: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: maroon;
+}
+
+main {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+}
+
+main nav {
+    padding: 1em;
+    color: maroon;
+    flex: 2 1 7em;
+    line-height: 1.5;
+}
+
+main div {
+    padding: 2em 0em 0em 0.5em ;
+    flex: 8 1 20em;
+}
+
+main div ul {
+    list-style: inside;
+    padding: 1.5em;
+}
+
+main nav ul{
+    list-style: none outside;
+}
+
+footer {
+    padding: 0.4em;
+}
+
+@media screen and (max-width: 500px) {
+    main {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        padding-left: 5px;
+    }
+
+    header nav ul li{
+        flex-direction: column;
+        padding-left: 5px;
+    }
+
+  }
