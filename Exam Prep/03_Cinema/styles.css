@@ -1,0 +1,157 @@
+@import url(https://use.fontawesome.com/releases/v6.5.1/css/all.css);
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu';
+}
+
+nav section,
+.left_nav h1,
+.left_nav p,
+.right_nav li {
+    display: inline-block;
+}
+
+nav {
+    padding: 1em;
+}
+
+.left_nav h1 {
+    border-right: 1px solid grey;
+    padding-right: 10px;
+}
+
+.left_nav p {
+    font-size: 10px;
+    color: grey;
+    padding-left: 15px;
+}
+
+nav .right_nav {
+    float: right;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+nav .right_nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgb(236, 236, 236);
+    font-size: 10px;
+    color: black;
+    padding: 10px;
+}
+
+nav .right_nav ul li a:hover {
+    background-color: rgb(86, 219, 177);
+}
+
+.image img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+.green {
+    background-color: rgb(86, 219, 177);
+    text-align: center;
+    padding: 40px 100px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.wrapper,
+.gray {
+    text-align: center;
+    display: flex;
+    padding: 70px;
+    gap: 30px;
+    background-color: rgb(53, 52, 52);
+    justify-content: center;
+}
+
+.wrapper article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapper article .icon i {
+    padding: 20px 20px;
+    background-color: rgb(86, 219, 177);
+}
+
+.wrapper article h4 {
+    color: white;
+    padding: 10px;
+}
+
+.wrapper article p {
+    color: grey;
+    line-height: 1.5;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.white {
+    text-align: center;
+    padding: 50px;
+    line-height: 1.5;
+    color: rgb(64 64 64);
+}
+
+.white h1 {
+    font-weight: 400;
+    font-size: 32px;
+    color: rgb(95, 95, 95);
+}
+
+.white h4 {
+    rgb(195, 188, 184);
+    font-weight: 200;
+}
+
+.white .button {
+    background-color: rgb(151, 77, 27);
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.white .button a{
+    text-decoration: none;
+    color: white;
+}
+
+.gray {
+    color: white;
+}
+
+.gray article h2 {
+    padding: 10px;
+}
+
+.gray article p {
+    color: grey;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+footer {
+    background-color: rgb(27, 151, 114);
+    padding: 40px;
+    text-align: center;
+    color: rgb(86, 219, 177);
+}
+
+footer strong {
+    color: rgb(219, 250, 240);
+}
