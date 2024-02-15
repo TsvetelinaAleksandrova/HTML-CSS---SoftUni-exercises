@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px/1.5 "PT Sans", sans-serif;
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "PT Serif";
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.site-section.banner {
+    padding-bottom: 2em;
+}
+
+.site-section.banner .container {
+    color: white;
+}
+
+.site-section.banner h2 {
+    font-size: 3.4em;
+    font-weight: normal;
+    line-height: 1.26;
+    margin-bottom: 1rem;
+}
+
+.site-section.banner p {
+    font-size: 1.2em;
+    max-width: 39.5rem;
+}
+
+.site-section {
+    padding: 2em;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header nav ul {
+    display: flex;
+}
+
+.site-header nav li {
+    list-style: none outside;
+    padding: 0 0.5em;
+}
+
+.site-header nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.site-title a {
+    display: block;
+    width: 130px;
+    height: 110px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url('images/logo.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.site-section.columns {
+    border-bottom: 2px solid #ccc;;
+    background: #fff;
+}
+
+.site-section.columns .column a {
+    padding: 0.5em 1em;
+    border: 2px solid #B18661;
+    border-radius: 0.2em;
+    text-decoration: none;
+    color: #B18661;
+}
+
+.column-container .column h2 {
+    font-weight: normal;
+}
+
+.column-container .column p {
+    padding-bottom: 2em;
+}
+
+.site-section.sponsors {
+    padding-bottom: 0;
+}
+
+.site-section.sponsors,
+.site-section.partners {
+    background: #fff;
+    text-align: center;
+}
+
+.site-section.sponsors h2,
+.site-section.partners h2 {
+    color: #B18661;
+    font-weight: normal;
+}
+
+.column-container {
+    display: flex;
+    gap: 3em;
+}
+
+.site-footer {
+    background: #171720;
+    color: #fff;
+}
+
+.site-footer h4 {
+    padding-bottom: 1em;
+}
+
+.site-footer ul li {
+    list-style: none outside;
+}
+
+footer {
+    border-top: 1px solid rgb(255,255,255,0.3);
+    padding: 0.5em;
+}
+
+.sponsors {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    padding: 2em 0;
+}
+
+.sponsors li {
+    list-style: none outside;
+    display: block;
+    width: 9em;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    background: #eee;
+    padding: 1em;
+    border-radius: 50%;
+    list-style: none outside;
+}
+
+.sponsors li a img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
