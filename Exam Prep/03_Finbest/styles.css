@@ -1,0 +1,319 @@
+@import url(https://use.fontawesome.com/releases/v6.5.1/css/all.css);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 16px Inter;
+    color: black;
+}
+
+nav {
+    margin: 1em 4em;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none outside;
+    display: inline-block;
+    padding: 0.5em 1em;
+}
+
+.left_side ul li a,
+.right_side ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.right_side .btn {
+    background-color: #ADE2DF;
+    border-radius: 0.5em;
+    font-weight: 500;
+}
+
+.green-sitetitle {
+    background-color: #ADE2DF;
+    padding: 140px 130px 120px 130px;
+    text-align: center;
+}
+
+.green-sitetitle h1 {
+    font-size: 82px;
+    font-weight: medium;
+}
+
+.green-sitetitle h5 {
+    font-size: 22px;
+    font-weight: normal;
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+
+.green-sitetitle ul li {
+    list-style: none outside;
+    border: 1px solid black;
+    border-radius: 0.4em;
+    padding: 30px 40px;
+    background-color: black;
+    color: white;
+}
+
+.green-sitetitle ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.green-sitetitle ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.white {
+    padding: 120px 225px 100px 225px;
+    display: flex;
+}
+
+.white .stats {
+    border-left: 1px solid #DBDBDB;
+    border-right: 1px solid #DBDBDB;
+    padding: 15px 40px 100px 40px;
+    text-align: center;
+}
+
+.white .stats h2 {
+    font-size: 52px;
+    font-weight: medium;
+    padding-bottom: 55px;
+}
+.white .stats h5 {
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.image-description {
+    display: flex;
+    background-color: #ADE2DF;
+    padding-left: 320px;
+    padding-right: 220px;
+}
+
+.image-description .image {
+    max-width: 500px;
+    border: 3px dashed lightgrey;
+}
+
+.image-description .description {
+    padding: 120px 120px 100px 120px;
+    line-height: 1.5;
+}
+
+.image-description .description h2 {
+    font-size: 52px;
+    font-weight: medium;
+}
+
+.image-description .description h5 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.image-description .description p {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.image-description .last {
+    padding-bottom: 50px;
+}
+
+.image-description .description a {
+    color: black;
+    font-size: 22px;
+    font-size: bold;
+}
+
+.grey {
+    background-color: #F3F5FA;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.grey-header button {
+    background-color: #ADE2DF;
+    padding: 15px 20px 10px 20px;
+    border: 1px solid #ADE2DF;
+    border-radius: 0.5em;
+    width: 160px;
+    margin: auto;
+}
+
+.grey-header h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: medium;
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+    padding-bottom: 115px;
+}
+
+.grey-plans {
+    border: 1px solid #DBDBDB;
+    border-radius: 1.5em;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+.grey-plans .plans {
+    padding: 40px;
+    text-align: left;
+    border-left: 1px solid #DBDBDB;
+    border-right: 1px solid #DBDBDB;
+}
+
+.grey-plans .plans span i,
+.grey-plans .plans span p {
+    display: inline;
+    font-size: 18px;
+}
+
+.grey-plans .plans span {
+    display: block;
+}
+
+.grey-plans .plans h5 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.grey-plans .plans h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.grey-plans .plans p {
+    font-size: 18px;
+    line-height: 2;
+}
+
+.grey-plans .plans .price {
+    display: inline;
+    padding-top: 40px;
+}
+
+.grey-plans .plans button {
+    margin-top: 60px;
+    padding: 30px 80px 30px 80px;
+    border: 1px solid #ADE2DF;
+    border-radius: 0.5em;
+    background-color: #ADE2DF;
+    text-align: center;
+    width: 290px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;    
+}
+
+.grey-plans .plans hr {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+
+.expand{
+    padding: 40px;
+}
+
+.expand h5 {
+    font-size: 24px;
+}
+
+.expand h3 {
+    font-size: 26px;
+    padding-bottom: 45px;
+}
+
+.expand span i,
+.expand span p {
+    display: inline;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.expand span {
+    display: block;
+    text-align: left;
+}
+
+.expand .black-button {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.8;
+    background-color: black;
+    color: white;
+    border-radius: 0.5em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 200px;
+}
+
+.green-footer {
+    padding-top: 135px;
+    padding-bottom: 120px;
+    text-align: center;
+    background-color: #ADE2DF;
+    display: flex;
+    justify-content: center;
+}
+
+.green-footer-container {
+    width: 760px;
+}
+
+.green-footer-container h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.green-footer-container h5 {
+    font-size: 24px;
+}
+
+.green-footer-container .download-button {
+    border: 1px solid black;
+    border-radius: 0.4em;
+    padding: 30px 40px;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+
+.green-footer-container .download-button a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-right i{
+    padding: 10px;
+}
