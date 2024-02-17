@@ -1,0 +1,95 @@
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+
+    .home-container {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .home-navbar-container {
+        position: static;
+        display: block;
+        max-width: 600px;
+    }
+
+    .home-navbar-container {
+        justify-content: space-around;
+    }
+
+    .home-text02 {
+        margin-right: 50px;
+    }
+
+    .home-cta-btn {
+        padding: 5px 10px;
+    }
+
+    .home-hero {
+        flex-direction: column-reverse;
+    }
+
+    .home-hero-text-container {
+        width: 100%;
+        margin-right: 50px;
+    }
+
+    .home-heading {
+        font-size: 30px;
+    }
+
+    .home-text02 {
+        font-size: 16px;
+        margin: 0;
+        padding-bottom: 40px;
+    }
+
+    .home-cta-btn2 {
+        align-self: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .home-image1 {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .home-heading-container {
+        width: 100%;
+    }
+
+    .home-text03 .Section-Heading {
+        font-size: 38px;
+    }
+
+    .home-cards-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-features{
+        height: auto;
+    }
+
+    .home-feature-card,
+    .home-feature-card1,
+    .home-feature-card2 {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .home-stats {
+        padding-left: 32px;
+        padding-right: 32px;
+        display: flex;
+        flex-direction: column;
+        order: 5000;
+    }
+
+    .home-stats div h1 {
+       margin: 0;
+    }
+}
