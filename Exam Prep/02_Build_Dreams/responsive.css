@@ -86,7 +86,6 @@
         padding-right: 32px;
         display: flex;
         flex-direction: column;
-        order: 5000;
     }
 
     .home-stats div h1 {
